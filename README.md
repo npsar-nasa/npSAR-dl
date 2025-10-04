@@ -48,7 +48,7 @@ This system provides automated detection and monitoring of glacial lakes based o
 - **Advanced Segmentation**: Uses state-of-the-art deep learning for precise lake boundary detection
 - **Multi-Lake Support**: Monitors multiple critical glacial lakes simultaneously
 
-## 🛰️ SAR Data Processing Pipeline
+## SAR Data Processing Pipeline
 
 **For:** Researchers working with satellite SAR data for environmental monitoring.
 
@@ -71,7 +71,7 @@ The system processes raw Sentinel-1 SAR data through multiple stages:
 - **Change Detection**: Identifies temporal variations in lake boundaries  
 - **Visualization**: Generates comparison images and analysis reports
 
-## 📊 Model Architecture
+## Model Architecture
 
 The system uses a **U-Net segmentation model** with:
 - **Backbone**: EfficientNet-B3 (pre-trained on ImageNet)
@@ -106,7 +106,7 @@ Raw Sentinel-1 Data → Download & RTC → Crop to AOI → Normalize →
 Pad to 256x256 → Model Training/Inference → Lake Area Calculation
 ```
 
-## 🚀 Usage
+## Usage
 
 ### 1. Data Preparation
 ```bash
@@ -128,7 +128,7 @@ jupyter notebook TrainTest.ipynb
 python CheckArea.py          # Calculate lake areas from processed data
 ```
 
-## 📈 Monitoring Capabilities
+## Monitoring Capabilities
 
 The system tracks key metrics for each glacial lake:
 - **Lake Surface Area**: Precise measurements in hectares
@@ -136,7 +136,7 @@ The system tracks key metrics for each glacial lake:
 - **Seasonal Patterns**: Monthly/seasonal lake level fluctuations
 - **Long-term Trends**: Multi-year expansion or contraction patterns
 
-## 🎯 Target Lakes
+## Target Lakes
 
 Currently monitoring five critical glacial lakes in Nepal:
 
@@ -148,7 +148,7 @@ Currently monitoring five critical glacial lakes in Nepal:
 
 Each lake has dedicated GeoJSON boundary files and historical training data.
 
-## 🔬 Technical Specifications
+## Technical Specifications
 
 - **Satellite Data**: Sentinel-1 C-band SAR (VV polarization)
 - **Spatial Resolution**: 20m ground resolution
@@ -157,7 +157,7 @@ Each lake has dedicated GeoJSON boundary files and historical training data.
 - **Geospatial Libraries**: Rasterio, GDAL, ASF Search SDK
 - **Model Performance**: IoU > 0.8 for water detection
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 npSAR-dl/
@@ -175,7 +175,7 @@ npSAR-dl/
 └── README.md             # This documentation
 ```
 
-## 🌡️ Climate Impact
+## Climate Impact
 
 This monitoring system supports:
 - **Early Warning Systems** for GLOF hazards
