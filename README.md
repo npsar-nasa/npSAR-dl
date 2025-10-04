@@ -30,7 +30,7 @@ pip install numpy pandas pillow
    └── Labelled/        # Masked lake images (256x256, normalized 0-1, float32)
    ```
 
-## 🏔️ Glacial Lake Monitoring
+## Glacial Lake Monitoring
 
 **For:** Environmental researchers, disaster management agencies, and climate scientists monitoring glacial lake changes in the Himalayas.
 
@@ -85,7 +85,7 @@ The system uses a **U-Net segmentation model** with:
 - Data Augmentation: 20x multiplication with geometric transforms
 - Early Stopping: Based on validation IoU performance
 
-## 🗂️ Data Organization
+## Data Organization
 
 ### Training Dataset Structure
 ```
