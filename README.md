@@ -1,7 +1,8 @@
 # npSAR-dl Project
 
-A deep learning-based system for automated glacial lake detection and monitoring in Nepal using Synthetic Aperture Radar (SAR) satellite imagery from Sentinel-1. This project focuses on monitoring critical glacial lakes including Imja Tsho, Gokyo Tsho, Chamlang Tsho, Tilicho Tsho, and Tsho Rolpa to support early warning systems for glacial lake outburst floods (GLOFs).
+> **Deep learning model for semantic segmentation of glacial lakes from Sentinel-1 SAR imagery using U-Net architecture with EfficientNet backbone.**
 
+A deep learning-based system for automated glacial lake detection and monitoring in Nepal using Synthetic Aperture Radar (SAR) satellite imagery from Sentinel-1. This project focuses on monitoring critical glacial lakes including Imja Tsho, Gokyo Tsho, Chamlang Tsho, Tilicho Tsho, and Tsho Rolpa.
 ## Installation
 
 ### Requirements
@@ -30,17 +31,6 @@ pip install numpy pandas pillow
    └── Labelled/        # Masked lake images (256x256, normalized 0-1, float32)
    ```
 
-## Glacial Lake Monitoring
-
-**For:** Environmental researchers, disaster management agencies, and climate scientists monitoring glacial lake changes in the Himalayas.
-
-This system provides automated detection and monitoring of glacial lakes based on:
-
-- **Sentinel-1 SAR satellite imagery** - All-weather, day/night monitoring capability
-- **Deep learning segmentation models** - U-Net architecture with EfficientNet backbone
-- **Multi-temporal analysis** - Track lake area changes over time
-- **Geographic targeting** - Focus on high-risk glacial lakes in Nepal
-
 ### Key Features:
 
 - **Automated Data Pipeline**: Downloads and processes Sentinel-1 SAR data from ASF/NASA
@@ -49,8 +39,6 @@ This system provides automated detection and monitoring of glacial lakes based o
 - **Multi-Lake Support**: Monitors multiple critical glacial lakes simultaneously
 
 ## SAR Data Processing Pipeline
-
-**For:** Researchers working with satellite SAR data for environmental monitoring.
 
 The system processes raw Sentinel-1 SAR data through multiple stages:
 
@@ -174,12 +162,4 @@ npSAR-dl/
 ├── For_website/          # Processed outputs for web display
 └── README.md             # This documentation
 ```
-
-## Climate Impact
-
-This monitoring system supports:
-- **Early Warning Systems** for GLOF hazards
-- **Climate Change Research** on glacial lake evolution
-- **Disaster Risk Reduction** for downstream communities
-- **Water Resource Management** in the Himalayas
 
