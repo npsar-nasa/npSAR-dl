@@ -1,6 +1,4 @@
-# npSAR-dl Project
-
-> **Deep learning model for semantic segmentation of glacial lakes from Sentinel-1 SAR imagery using U-Net architecture with EfficientNet backbone.**
+# npSAR-deeplearning model
 
 A deep learning-based system for automated glacial lake detection and monitoring in Nepal using Synthetic Aperture Radar (SAR) satellite imagery from Sentinel-1. This project focuses on monitoring critical glacial lakes including Imja Tsho, Gokyo Tsho, Chamlang Tsho, Tilicho Tsho, and Tsho Rolpa.
 ## Installation
