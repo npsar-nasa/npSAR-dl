@@ -29,6 +29,24 @@ pip install numpy pandas pillow
    └── Labelled/        # Masked lake images (256x256, normalized 0-1, float32)
    ```
 
+## Project Structure
+
+```
+npSAR-dl/
+├── src/                   # Core processing scripts
+│   ├── DownloadProcessing.py    # SAR data download & processing
+│   ├── Crop_Product.py          # Image cropping utilities
+│   ├── Normalize.py             # Histogram equalization
+│   ├── padding.py               # Image padding to standard size
+│   ├── CheckArea.py             # Lake area calculations
+│   └── config.ini               # Configuration parameters
+├── TrainTest.ipynb        # Main training/testing notebook
+├── Training_Dataset/      # Organized training data by lake
+├── SAR_model_data/       # Model input data (Prelabelled/Labelled)
+├── For_website/          # Processed outputs for web display
+└── README.md             # This documentation
+```
+
 ### Key Features:
 
 - **Automated Data Pipeline**: Downloads and processes Sentinel-1 SAR data from ASF/NASA
